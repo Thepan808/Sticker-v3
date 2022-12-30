@@ -4,26 +4,24 @@ ratelimit: Não tão frequente!
 cmd:
   start:
     info: |
-      Hi, <b>${name}</b>!
+      Olá, <b>${name}</b>!
 
-      Send me a sticker, GIF, video, file, or photo and I will add it to your sticker pack.
-      Want to remove it from your sticker pack? Send it once again.
+      Envie-me um adesivo, GIF, vídeo, arquivo ou foto e eu vou adicioná-lo ao seu pacote de adesivos.
+      Quer removê-lo do seu pacote de adesivos? Envie-o mais uma vez.
 
-      /packs - get your packs
-      /new - create a new sticker pack
+      /packs - obtenha seus pacotes
+      /new - criar um novo pacote de adesivos
 
-      /original - find original sticker
-      /restore - restore a sticker pack
-      /copy - copy a sticker pack
-      /emoji - change emoji suffix for current sticker pack
-      /frame - сhange frame for current sticker pack
-      /lang - change language
+      /original - encontrar adesivo original
+      /restore - restaurar um pacote de adesivos
+      /copy - copiar um pacote de adesivos
+      /emoji - alterar o sufixo emoji para o pacote de adesivos atual
+      /frame - Alterar frame para o pacote de adesivos atual
+      /lang - Alterar Idioma
 
-      /donate - support the developer
 
-      GitHub: https://github.com/LyoSU/fStikBot
-      👨🏻‍💻 Developer channel: @LyBlog
-    catalog: |
+      👨🏻‍💻 Developer channel: @botssaved
+    catálogo: |
       <b>😻 Você pode encontrar novos pacotes de sticker no nosso catálogo</b>
 
       • Clique no botão abaixo e tenha acesso a um catálogo enorme de pacotes de stickers para cada gosto
@@ -33,8 +31,8 @@ cmd:
       start: '📜 Menu inicial'
       packs: '📁 Pacotes de stickers'
       new: '📥 Crie um novo pacote de stickers'
-      catalog: '📖 Catalog'
-      publish: '🌐 Publish sticker pack in catalog'
+      catalog: '📖 Catálogo'
+      publish: '🌐 Publicar pacote de adesivos no catálogo'
       original: '🔍 Encontre o sticker original'
       restore: '🔀 Restaure um pacote de sticker'
       copy: '📋 Copie um pacote de sticker'
@@ -114,29 +112,29 @@ coedit:
   info: |
     <b>👥 Co-editing sticker pack</b>
 
-    Link for co-editing <a href="${link}">${title}</a>:
+    Link para co-editing <a href="${link}">${title}</a>:
     <code>${colink}</code>
 
-    <b>How to use:</b>
-    1. Send the link to the person you want to give access to the sticker pack
-    2. After clicking on the link, they need to press "start" and they will be added to the editors
-    3. The editor can add, delete and edit stickers in the sticker pack
+    <b>Como usar:</b>
+    1. Envie o link para a pessoa que você deseja dar acesso ao pacote de adesivos
+    2. Depois de clicar no link, eles precisam pressionar "start" e eles serão adicionados aos editores
+    3. O editor pode adicionar, excluir e editar adesivos no pacote de adesivos
 
-    <b>Editors:</b>
+    <b>Editores:</b>
     ${editors}
 
-    <i>To remove editors, you need to reset the link</i>
+    <i>Para remover editores, você precisa redefinir o link</i>
   no_editors: |
     No editors yet
   btn:
-    send: '📤 Send link'
-    reset: '🔁 Reset link'
+    send: '📤 Enviar link'
+    reset: '🔁 Resertar link'
   share: |
-    Follows the link and press "start" to co-edit the sticker pack "${title}"
+    Segue o link e pressione "start" para coeditar o pacote de adesivos "${title}"
   reset: |
-    <b>🔁 Link reset successful</b>
+    <b>🔁 Link resertado com sucesso</b>
 
-    New link for co-editing <a href="${link}">${title}</a>:
+    Novo link para coedição <a href="${link}">${title}</a>:
     <code>${colink}</code>
 callback:
   pack:
@@ -338,15 +336,15 @@ scenes:
   catalog:
     publish:
       publish_new: |
-        👌 <b>Send me the sticker from the sticker pack you want to publish</b>
+        👌 <b>Envie-me o adesivo do pacote de adesivos que você deseja publicar</b>
 
-        <i>You can publish any sticker pack that belong to you, even if they are created elsewhere</i>
+        <i>Você pode publicar qualquer pacote de adesivos que pertença a você, mesmo que eles sejam criados em outro lugar</i>
       owner_proof: |
-        <b>To verify ownership of this sticker pack, you need to follow a few simple steps:</b>
-        1. Open @Stickers bot
-        2. Send <code>/packstats</code> command
-        3. Find and choose the required sticker pack
-        4. Forward the received message to the bot
+        <b>Para verificar a propriedade deste pacote de adesivos, você precisa seguir alguns passos simples:</b>
+        1. Abre @Stickers bot
+        2. Envia <code>/packstats</code> comando
+        3. Encontre e escolha o adesivo necessário pack
+        4. Encaminhar a mensagem recebida para o bot
       publish_new_access_denied: |
         <b>Erro!</b>
         O pacote de sticker não é seu.
