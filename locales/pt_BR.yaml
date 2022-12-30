@@ -17,10 +17,9 @@ cmd:
       /copy - copiar um pacote de adesivos
       /emoji - alterar o sufixo emoji para o pacote de adesivos atual
       /frame - Alterar frame para o pacote de adesivos atual
-      /lang - Alterar Idioma
 
 
-      👨🏻‍💻 Developer channel: @botssaved
+      👨🏻‍💻 Canal do desenvolvedor: @botssaved
     catálogo: |
       <b>😻 Você pode encontrar novos pacotes de sticker no nosso catálogo</b>
 
@@ -38,8 +37,6 @@ cmd:
       copy: '📋 Copie um pacote de sticker'
       emoji: '📝 Altere o emoji vinculado'
       round: '🎥 Deixe o vídeo redondo'
-      lang: '🌐 Mude o idioma'
-      donate: '☕️ Apoie o desenvolvedor'
     btn:
       new: '📥 Crie novo'
       catalog: '💖 Abrir catálogo'
@@ -70,10 +67,10 @@ cmd:
     info: |
       <b>🌟 Pacotes de sticker:</b>
     types:
-      static: '🌟 Estático'
-      animated: '✨ Vetor'
-      video: '📹 Vídeo'
-      inline: '💫 Inline'
+      static: '🧛‍♂️ Estático'
+      animated: '🀄 Vetor'
+      video: '☃️ Vídeo'
+      inline: '🎭 Inline'
     empty: |
       <b>Você ainda não tem pacotes de sticker.</b>
       Para criar, escreva um comando /new
@@ -265,10 +262,10 @@ sticker:
         O arquivo é muito grande para ser processado. Por favor, reduza a qualidade e durante antes de enviar.
 scenes:
   new_pack:
-    static: '🌟 Estático'
-    animated: '✨ Vetor'
-    video: '📹 Vídeo'
-    inline: '💫 Inline'
+    static: '🧛‍♂️ Estático'
+    animated: '🀄 Vetor'
+    video: '☃️ Vídeo'
+    inline: '🎭 Inline'
     pack_type: |
       <b><u>Escolha o tipo de pacote de sticker</u></b>
 
