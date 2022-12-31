@@ -204,7 +204,7 @@ sticker:
     ok_inline: |
       <b>Sticker adicionado ao pacote de sticker com sucesso:</b>
       <u>${title}</u>
-    send_emoji: Ótimo, agora envie os emojis que correspondam aos
+    send_emoji: Ótimo, agora envie o emoji que correspondam o qual você quer
     converting_process: |
       <b>Aguarde...</b>
       Seu arquivo está na fila para conversão. Espere a conclusão. Isso pode levar algum tempo.
